@@ -1,0 +1,52 @@
+.mobile-menu-hide {
+  width: 0;
+  right: 0;
+  margin-right: -100%;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.mobile-menu-hide * {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.mobile-header {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #2eca7f;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+//一开始设置visibility 为hidden，宽度缩小后，更改 --> media
+.mobile-visible {
+  display: none;
+  visibility: hidden;
+}
+
+.menu-toggle {
+  display: block;
+  width: 50px;
+  margin: 0 4px;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  float: right;
+}
+
+.menu-toggle i {
+  color: #fff;
+  font-size: 21px;
+  line-height: 50px;
+}

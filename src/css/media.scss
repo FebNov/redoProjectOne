@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1032px) {
+  .header .header-content {
+    margin: 0 15px;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .header.sticked {
+    background-color: #fff;
+    height: 60px;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+@media only screen and (max-width: 991px) {
+  .mobile-visible {
+    display: block;
+    visibility: visible;
+  }
+
+  .mobile-hidden {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .mobile-logo-container {
+    margin: 0 20px;
+    text-align: left;
+  }
+  .mobile-site-title {
+    display: inline-block;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    margin: 0;
+    line-height: 50px;
+  }
+  .header {
+    width: 100%;
+    max-width: 320px;
+    height: calc(100% - 50px);
+    right: 0;
+    top: 50px;
+    z-index: 1001;
+    overflow: auto;
+    background-color: #2eca7f;
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.44s ease-in-out;
+    -moz-transition: all 0.44s ease-in-out;
+    -o-transition: all 0.44s ease-in-out;
+    -ms-transition: all 0.44s ease-in-out;
+    transition: all 0.44s ease-in-out;
+  }
+
+  .header * {
+    -webkit-transition: all 0.44s ease-in-out;
+    -moz-transition: all 0.44s ease-in-out;
+    -o-transition: all 0.44s ease-in-out;
+    -ms-transition: all 0.44s ease-in-out;
+    transition: all 0.44s ease-in-out;
+  }
+}
