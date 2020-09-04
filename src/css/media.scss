@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1032px) {
   .header .header-content {
     margin: 0 15px;
+    .pt-page {
+      margin: 0 15px;
+      width: auto;
+    }
   }
 }
 @media only screen and (min-width: 991px) {
